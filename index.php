@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$dbname = 'project_management';
-$username = 'root';
-$password = '';
+$dbname = 'project_Lykova';
+$username = 'admin';
+$password = 'admin';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
